@@ -1,6 +1,7 @@
 body{
   overflow-x:hidden;
   background: #EDEDEB;
+  touch-action: none;
   /* background-image: url('../images/Main_page_org.jpg');
   background-size: cover;
   background-repeat: no-repeat; */
@@ -233,7 +234,7 @@ margin-top: 190px;
 }
 
 .custom-arrow > a{
-  width: 15vw !important;
+  width: 270px !important;
   color:  #9B8257;
 }
 
