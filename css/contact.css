@@ -4,6 +4,9 @@ body {overflow-x: hidden;
   background-repeat: no-repeat;
 
 }
+#bigcontact, #bigger {
+  display: none;
+}
 @media screen and (min-width: 1500px) {
   .respon {
     height : 100vh;
@@ -16,6 +19,14 @@ body {overflow-x: hidden;
     flex-direction : column;
     height : 100vh;
     justify-content : space-between;
+  }
+
+  #smallcontact, #first {
+    display: none;
+  }
+
+  #bigcontact, #bigger {
+    display: block;
   }
 }
 .myImg{
