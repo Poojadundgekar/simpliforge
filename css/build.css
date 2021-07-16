@@ -5,6 +5,20 @@
     overflow: hidden;
     padding-bottom: 56.25%;
   }
+  @media screen and (min-width: 1500px) {
+  .respon {
+    height : 100vh;
+    display : flex;
+    flex-direction : column;
+  }
+  
+  .myLoaders {
+    display : flex;
+    flex-direction : column;
+    height : 100vh;
+    justify-content : space-between;
+  }
+}
   @media all and (max-width:991px) {
     .mobile_mode{
       display: block;
@@ -14,7 +28,7 @@
 
 
   }
-  body {
+  body {overflow-x: hidden;
     background-image: url('../images/build0.jpg');
     background-size: cover;
     background-repeat: no-repeat;

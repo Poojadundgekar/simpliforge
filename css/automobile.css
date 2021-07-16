@@ -1,21 +1,23 @@
-body {
-  background-image: url('../images/domain.jpg');
+body {overflow-x: hidden;
+  background-image: url('../images/build0.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
   overflow-x: hidden;
 }
-.respon {
-  height : 100vh;
-  display : flex;
-  flex-direction : column;
-}
+@media screen and (min-width: 1500px) {
+  .respon {
+    height : 100vh;
+    display : flex;
+    flex-direction : column;
+  }
 
-.myLoaders {
-  display : flex;
-  flex-direction : column;
-  height : 100vh;
-  justify-content : space-between;
+  .myLoaders {
+    display : flex;
+    flex-direction : column;
+    height : 100vh;
+    justify-content : space-between;
+  }
 }
 @font-face {
   font-family: myFirstFont;

@@ -1,8 +1,22 @@
-body {
+body {overflow-x: hidden;
   background-image: url('../images/contactPage.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 
+}
+@media screen and (min-width: 1500px) {
+  .respon {
+    height : 100vh;
+    display : flex;
+    flex-direction : column;
+  }
+
+  .myLoaders {
+    display : flex;
+    flex-direction : column;
+    height : 100vh;
+    justify-content : space-between;
+  }
 }
 .myImg{
   opacity: 0.1;
@@ -213,7 +227,7 @@ label {
   border-radius: 20px;
 }
   @media only screen and (max-width: 600px){
-    body {
+    body {overflow-x: hidden;
       background-image: url('../images/contactPhone.svg');
       background-size: cover;
       background-repeat: no-repeat;
@@ -221,7 +235,7 @@ label {
   }
 
   @media only screen and (max-width: 600px){
-    body {
+    body {overflow-x: hidden;
       background-image: url('../images/contactPhone.svg');
       background-size: contain contain;
       background-position: top, bottom;
