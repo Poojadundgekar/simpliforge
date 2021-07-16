@@ -3,6 +3,19 @@ body {overflow-x: hidden;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#susbig, #workbig, #biggoals {
+  display: none;
+}
+
+@media screen and (min-width: 1500px) {
+  #sussmall, #worksmall, #smallgoals {
+    display: none;
+  }
+  #susbig, #workbig, #biggoals {
+    display: block;
+  }
+}
 @font-face {
   font-family: myFirstFont;
   src: url('../fonts/FontAvenirNextLTPro.ttf');
@@ -268,7 +281,7 @@ a{
     line-height: 17px;
   }
   .f1{
-    background-color:#EDEDEB;
+    background-color:rgb(245, 245, 245);
       font-size:18px;
   }
   .hyper{

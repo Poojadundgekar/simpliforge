@@ -176,7 +176,7 @@ body {overflow-x: hidden;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
-  background-color: #EDEDEB;
+  background-color: rgb(245, 245, 245);
 }
 #second{
   font-family:'Nunito', sans-serif;
@@ -194,7 +194,7 @@ body {overflow-x: hidden;
   background: #4D4D4D;
 }
 .f1{
-  background-color:#EDEDEB;
+  background-color:rgb(245, 245, 245);
     font-size:18px;
 }
 .hyper{

@@ -1,4 +1,4 @@
-@media screen and (min-width: 5100px) {
+/* @media screen and (min-width: 5100px) {
   .margin-center {
     transform: translateX(12vw);
   }
@@ -13,5 +13,17 @@
 @media screen and (min-width: 2550px) {
   .margin-center {
     transform: translateX(6vw);
+  }
+} */
+#bigger {
+  display: none;
+}
+
+@media screen and (min-width: 1500px) {
+  #first {
+    display: none;
+  }
+  #bigger {
+    display: block;
   }
 }
