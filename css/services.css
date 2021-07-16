@@ -7,6 +7,23 @@ body {
 .nset{
   margin-top: 6rem !important;
 }
+@media screen and (min-width: 5100px) {
+  .margin-center {
+    transform: translateX(12vw);
+  }
+}
+
+@media screen and (min-width: 3100px) {
+  .margin-center {
+    transform: translateX(8vw);
+  }
+}
+
+@media screen and (min-width: 2550px) {
+  .margin-center {
+    transform: translateX(6vw);
+  }
+}
 @media only screen and (max-width: 992px) {
 	.myImg{
     height: 100vh;

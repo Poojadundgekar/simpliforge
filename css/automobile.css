@@ -3,6 +3,19 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
+  overflow-x: hidden;
+}
+.respon {
+  height : 100vh;
+  display : flex;
+  flex-direction : column;
+}
+
+.myLoaders {
+  display : flex;
+  flex-direction : column;
+  height : 100vh;
+  justify-content : space-between;
 }
 @font-face {
   font-family: myFirstFont;
